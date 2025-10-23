@@ -158,6 +158,14 @@ public @interface Excel {
 	public String dicText() default "";
 	
 	/**
+	 * 方法描述:  字典表数据源
+	 * 作    者： jeecg
+	 * @return 
+	 * 返回类型： String
+	 */
+	public String ds() default "";
+	
+	/**
 	 * 导入数据是否需要转化  
 	 * 若是为true,则需要在pojo中加入 方法：convertset字段名(String text)  
 	 * @return

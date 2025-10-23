@@ -19,5 +19,17 @@ public interface AutoPoiDictServiceI{
  	 * 返回类型： List<DictEntity>
  	 */
  	public String[] queryDict(String dicTable,String dicCode, String dicText);
+ 	
+	/**
+ 	 * 方法描述:  查询数据字典（支持数据源）
+ 	 * 作    者： jeecg
+ 	 * @param dicTable
+ 	 * @param dicCode
+ 	 * @param dicText
+ 	 * @param ds 数据源
+ 	 * @return 
+ 	 * 返回类型： List<DictEntity>
+ 	 */
+ 	public String[] queryDict(String dicTable,String dicCode, String dicText, String ds);
 
 }
